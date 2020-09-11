@@ -1,0 +1,16 @@
+import random
+guess=[]
+players=int(input("enter a number ranging from 1-60"))
+guess.append(players)
+computer=random.randomint(1,60)
+while(players!=computer):
+      if(player>=computer):
+              print("number is too high")
+      else:
+           print("number is too low")
+      player=int(input("enter a number ranging from 1-60"))
+      guess.append(players)
+else:
+    print("your guess is correct")
+    print("these are your guesses")
+    print(guesses)
